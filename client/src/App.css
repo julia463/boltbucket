@@ -10,3 +10,47 @@
     overflow-x: hidden;
     padding-bottom: 50px;
 }
+.createCar{
+    background-color:black;
+}
+
+.category-buttons{
+    list-style-type:none;
+    padding: 0;
+    margin:0;
+    display:flex;
+}
+.selectedOptions{
+    background-color:black;
+}
+.horizontal-list li {
+    margin-right: 20px;
+}
+.option-pic{
+    width: 300px;
+    height: 300px;
+}
+.options-display, .selectedOptions{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.car_overview_container{
+    background-color:black; 
+    margin-bottom:20px;
+
+}
+.car_attribute{
+
+}
+.car_attribute img, .option-pic img{
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+}
+.attribute_container, .selectedOptions{
+    background-color:black;
+    width: 800px;
+    height:500px;
+    display:flex;
+}
